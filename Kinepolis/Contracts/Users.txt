@@ -1,0 +1,23 @@
+- class SingleUser
++__init__(in userID: int, in firstName: string, in lastName: string, in mail: string)
+// creates a SingleMovie object containing given information
+
+
++class Users
++__init__()
+// creates an empty data structure of selected type: allUsers
+// runs when Users object is created
+
++addUser(in firstName: string, in lastName: string, in mail: string, in userID: int, out success: boolean)
+// add movie to allUsers
+// return boolean indicating success
+
++getUserInfo(in userID: int, out keys: list(int))
+// returns a list of all search keys present in allFilms
+
++changeUserMail(in userID: int, in newMail: string, out succes: boolean)
+// changes mail of user with given userID to newMail
+// returns boolean indicating success
+
++getUsers(out keys: list(int))
+// returns ordered list containing all search keys in allUsers

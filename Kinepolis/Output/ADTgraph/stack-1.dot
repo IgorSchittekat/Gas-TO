@@ -1,0 +1,8 @@
+digraph G {
+	node [shape=record];
+	struct [label="<top> 5"];
+	rankdir=LR
+	Top [shape=plaintext];
+	Top -> struct:top
+
+}

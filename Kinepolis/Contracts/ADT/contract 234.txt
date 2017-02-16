@@ -1,0 +1,28 @@
++__init__
+// Create an empty 2-3-4 tree
+
++destroyTwoThreeFourTree(out success: boolean)
+//Remove the 2-3-4 tree
+
++retrieve(in key: dataType, out data: dataType, out success: boolean)
+// search for key in the 2-3-4 tree
+// Return success when found
+
++insertItem(in data: dataType, out success: boolean)
+// Insert data on the correct place
+// Split each 4-node you pass during insert
+// Return success when done
+
++deleteItem(in data: dataType, out succes: boolean)
+// Remove Key from tree if found
+// 2-nodes become 3-nodes (except root)
+// 3-nodes become 4-nodes
+
++is_empty(out success: boolean)
+//Displays whether the tree is empty or not
+
++inorder_traverse(out traverse: list)
+// return a list of all elements (not sorted)
+
++visualize(out dot: string)
+// give the .dot code to visualize the hashmap

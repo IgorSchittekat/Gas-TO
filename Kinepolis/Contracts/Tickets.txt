@@ -1,0 +1,5 @@
++__init__(in userID: int, in playID: int, in numberOfSeats: int, in userInstance: table, in playInstance: table, in timeSlots: table)
+// Creates a ticket object that we can return when making a reservation
+
++printTicket()
+// prints tickets data

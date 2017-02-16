@@ -1,0 +1,251 @@
+type=bst
+insert 10
+insert 5
+insert 9
+insert 20
+insert 12
+insert 2
+insert 7
+insert 21
+delete 10
+insert 11
+insert 15
+insert 3
+delete 7
+insert 25
+delete 21 
+print
+
+type=23
+insert 10
+insert 5
+insert 9
+insert 20
+insert 12
+insert 2
+insert 7
+insert 21
+delete 10
+insert 11
+insert 15
+insert 3
+delete 7
+insert 25
+delete 21
+print
+
+type=ll
+insert 10
+insert 5
+insert 9
+insert 20
+insert 12
+insert 2
+insert 7
+insert 21
+delete 10
+insert 11
+insert 15
+insert 3
+delete 7
+insert 25
+delete 21
+print
+
+type=dll
+insert 10
+insert 5
+insert 9
+insert 20
+insert 12
+insert 2
+insert 7
+insert 21
+delete 10
+insert 11
+insert 15
+insert 3
+delete 7
+insert 25
+delete 21
+print
+
+type=cll
+insert 10
+insert 5
+insert 9
+insert 20
+insert 12
+insert 2
+insert 7
+insert 21
+delete 10
+insert 11
+insert 15
+insert 3
+delete 7
+insert 25
+delete 21
+print
+
+type=stack
+insert 10
+insert 5
+insert 9
+insert 20
+insert 12
+insert 2
+insert 7
+insert 21
+delete
+insert 11
+insert 15
+insert 3
+delete
+insert 25
+delete
+print
+
+type=queue
+insert 10
+insert 5
+insert 9
+insert 20
+insert 12
+insert 2
+insert 7
+insert 21
+delete
+insert 11
+insert 15
+insert 3
+delete
+insert 25
+delete
+print
+
+type=hlin,10
+insert 10
+insert 5
+insert 9
+insert 20
+insert 12
+insert 2
+insert 7
+insert 21
+delete 10
+insert 11
+insert 15
+insert 3
+delete 7
+insert 25
+delete 21
+print
+
+type=hquad,10
+insert 10
+insert 5
+insert 9
+insert 20
+insert 12
+insert 2
+insert 7
+insert 21
+delete 10
+insert 11
+insert 15
+insert 3
+delete 7
+insert 25
+delete 21
+print
+
+type=hsep,10,bst
+insert 10
+insert 5
+insert 9
+insert 20
+insert 12
+insert 2
+insert 7
+insert 21
+delete 10
+insert 11
+insert 15
+insert 3
+delete 7
+insert 25
+delete 21
+print
+
+type=hsep,10,23
+insert 10
+insert 5
+insert 9
+insert 20
+insert 12
+insert 2
+insert 7
+insert 21
+delete 10
+insert 11
+insert 15
+insert 3
+delete 7
+insert 25
+delete 21
+print
+
+type=hsep,10,ll
+insert 10
+insert 5
+insert 9
+insert 20
+insert 12
+insert 2
+insert 7
+insert 21
+delete 10
+insert 11
+insert 15
+insert 3
+delete 7
+insert 25
+delete 21
+print
+
+type=hsep,10,dll
+insert 10
+insert 5
+insert 9
+insert 20
+insert 12
+insert 2
+insert 7
+insert 21
+delete 10
+insert 11
+insert 15
+insert 3
+delete 7
+insert 25
+delete 21
+print
+
+type=hsep,10,cll
+insert 10
+insert 5
+insert 9
+insert 20
+insert 12
+insert 2
+insert 7
+insert 21
+delete 10
+insert 11
+insert 15
+insert 3
+delete 7
+insert 25
+delete 21
+print

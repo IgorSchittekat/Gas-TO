@@ -1,0 +1,31 @@
+Operation contract van hashmap, gemaakt door Igor Schittekat
+Tests worden geschreven door Robbe Van Reeth
++__init__(in tableSize: int)
+//create an empty HashTable
+
++destroyHashTable(out success: boolean)
+//delete a HashTable
+
++is_empty(out boolean)
+//show if the HashTable is empty
+
++tableInsert(in newItem: tableItemType, out success: boolean)
+//insert an item in the HashTable
+
++tableDelete(in searchKey: KeyType, out success: boolean)
+//delete an item from the HashTable
+
++tableRetrieve(in searchKey: KeyType, out tableItem: tableItemType, out success: boolean)
+//retrieves an item, but doesn't delete it
+
+-changeMethode(in newMethodeParameter: int)
+//change the methode of the implementation (Lin prob, Quad prob, Seperate chaining)
+
+-changeChain(in newChainParameter: int)
+//change the chain of Seperate chaining (ll, dll, cll, bst, 23, 234, rb)
+
++traverse(out traverse: list)
+// return a list of all elements (not sorted)
+
++visualize(out dot: string)
+// give the .dot code to visualize the hashmap

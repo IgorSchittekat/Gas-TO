@@ -1,0 +1,108 @@
+-class SingleRoom
++__init__(in roomName: int, in seats: int)
+// creates a SingleRoom object containing given information
+// creates an empty data structure of selected type: allReservations
+
++reserve(in timeSlot: int, in date: string, out success: boolean)
+// creates 2 Stack (usedSeats, entered) objects, and stores them in the allReservations
+
++cancel(in timeSlot: int, in date: string, out success: boolean)
+// remove Stack objects (corresponding to timeSlot and date) from allReservations
+
++showReservations(out allReservations: list)
+// return a list of allReservations (searchKeys)
+
++showEmptySeats(in timeSlot: int, in date: string, out emptySeats: int)
+// returns all emptySeats (seats-usedSeats) for a reservation (corresponding to timeSlot and date)
+
++isFree(in timeSlot: int, in date: string, out success: boolean)
+// check if room is reserved at given timeSlot and date
+
++changeSeats(in seats: int, in timeSlot: int, in date: string, out success: boolean)
+// change the usedSeats for a reservation (corresponding to timeSlot and date)
+
++enterRoom(in timeSlot: int, in date: string, in peopleAmount: int)
+// change entered for a reservation (corresponding to timeSlot and date)
+// poeple enter the room
+
++entered(in timeSlot: int, in dats: string, out sizeEntered: int)
+// return the omount of people who entered the room (corresponding to timeSlot and date)
+
+
++class Rooms
++__init__(in maxRooms (opt): int)
+// creates a Rooms object
+// creates an empty data structure of selected type: allRooms
+
++addRoom(in room: SingleRoom/int, in seats (opt): int, out success: boolean)
+// creats SingleRoom object, if not passed in
+// add room to allRooms
+
++deleteRoom(in roomName: int, out success: boolean)
+// removes the room from allRooms
+
++retrieveRoom(in roomName: int, out room: SingleRoom)
+// returns the room
+
++showRooms(out allRooms: list)
+// return a list of allRooms (roomNames)
+
++showReservations(in roomName: int, out allreservations: list)
+// return a list of allReservations of given room
+
++reserveRoom(in roomName: int, in timeSlot: int, in date: string, out success: boolean)
+// reserve a room at given time and date
+
++cancelReservation(in roomName: int, in timeSlot: int, in date: string, out success: boolean)
+// cancel the reservation of a room
+
++showEmptySeats(in roomName: int, in timeSlot: int, in date: string, out emptySeats: int)
+// show the emptySeats of a room at given timeSlot and date
+
++isFree(in roomName: int, in timeSlot: int, in date: string, out success: boolean)
+// check if a room is reserved 
+
++changeEmptySeats(in roomName: int, in timeSlot: int, in date: string, in seats: int, out success: boolean)
+// change the usedSeats for a reservation (corresponding to room, timeSlot and date)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

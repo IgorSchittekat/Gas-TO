@@ -1,0 +1,28 @@
++__init__(in node: TwoThreeNode)
+// Creates an empty 2-3 tree when object is created
+
++destroy_two_three_tree()
+// Destroys 2-3-tree
+
++is_empty(out succes: boolean)
+// returns True if tree is empty
+
++inorder_traverse(out keys: list(int))
+// returns a sorted list of all keys in tree
+
++retrieve(in item: int, out (present, data): (boolean, dataItem))
+// returns a tuple:
+// first element is a boolean indicating presence of item
+// second element is data associated with key if item is present
+
++insert(in item/(key, data): int/(int, data), out succes: boolean)
+// inserts given singular item or key-data couple
+// returns boolean indicating success of operation
+
++delete(in item/(key, data): int/(int, data), out succes: boolean)
+// inserts given singular item or key-data couple
+// returns boolean indicating success of operation
+
+
++visualize(out dot: string)
+// returns string containing the data for our .dot-file for visual representation

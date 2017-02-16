@@ -1,0 +1,41 @@
+-class SinglePlays
++__init__(in roomName: string, in timeSlot: int, in date: string, in movieID: int, in playID: int)
+// creates a SinglePlay object containing given information
+
+
++class Plays
++__init__(in allRooms: table, in allMovies: table)
+// creates an empty data structure of selected type: allPlays
+// runs when Plays object is created
+
++getAllPlays(out keys: list(int))
+// returns a list of all search keys present in allPlays
+
++addPlay(in roomName: string, in timeSlot: int, in date: string, in movieID: int, in playID: int, out success: boolean)
+// add play to allPlays
+// returns boolean indicating success
+
+
++removePlay(in playID: int, out success: boolean)
+// delete play with given playID from allPlays
+// returns boolean indicating success
+
++getInfo(in playID: int, out roomName: string, out timeSlot: int, out date: string, out movieID: int)
+// returns all information associated with given playID
+
++changeRoomName(in playID: int, in newRoomName: int, out succes: boolean)
+// changes rating of play with given playID to newRoomName
+// returns boolean indicating success
+
++changeTime(in playID: int, in newTime: int, out succes: boolean)
+// changes timeSlot of play with given playID to newTime
+// returns boolean indicating success
+
++changeDate(in playID: int, in newDate: string, out succes: boolean)
+// changes date of play with given playID to newDate
+// returns boolean indicating success
+
+
++changeMovie(in playID: int, in newMovieID: int, out succes: boolean)
+// changes date of play with given playID to newMovieID
+// returns boolean indicating success

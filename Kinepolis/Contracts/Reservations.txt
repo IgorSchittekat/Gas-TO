@@ -1,0 +1,25 @@
+-class SingleReservation
++__init__(in userID: int, in playID: int, in timeSlot: int, in date: string, in numbOfSeats: int, in reservationID: int)
+// creates a SingleReservation object containing given information
+
+
++class Reservations
++__init__(in allRooms: table, in allUsers: table, in allPlays: table, in timeSlots: table)
+// creates an empty data structure of selected type: allReservations
+// runs when Reservations object is created
+
++createReservation(in userID: int, in playID: int, in numbOfSeats: int, out ticket: Ticket object)
+// add movie to allFilms
+// returns ticket object
+
++cancelReservation(in reservationID: int, out success: boolean)
+// delete reservation with given reservationID from allReservations
+// returns boolean indicating success
+
++changeReservation(in reservationID: int, in newNumberOfSeats: int, out ticket: Ticket object)
+// changes number of seats for reservation with given reservationID
+// returns ticket object
+
++changeRating(in movieID: int, in newRating: float, out succes: boolean)
+// changes rating of movie with given movieID to newRating
+// returns boolean indicating success

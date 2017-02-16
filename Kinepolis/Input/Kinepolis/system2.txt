@@ -1,0 +1,50 @@
+init
+#Custom timeSlots
+tijdsslot 1 10:00
+tijdsslot 2 12:00
+tijdsslot 3 14:00
+tijdsslot 4 16:00
+tijdsslot 5 18:00
+tijdsslot 6 20:00
+tijdsslot 7 22:00
+zaal 1 20
+zaal 2 15
+zaal 3 20
+zaal 4 10
+film 2 "The Treminator" 8.6
+film 1 "The Sting" 8.5
+film 4 "Ice Age" 7.3
+film 5 "Saving Private Ryan" 9.0
+film 3 "The Matrix" 9.5
+vertoning 1 1 1 2016-10-10 3
+vertoning 2 2 4 2016-10-10 1
+vertoning 3 1 3 2016-10-10 5
+vertoning 4 3 7 2016-10-10 4
+vertoning 5 4 7 2016-10-10 5
+gebruiker 1 Igor Schittekat igor.schittekat@student.uantwerpen.be
+gebruiker 2 John Doe john@doe.com
+gebruiker 3 Andrei Bondarenko andrei.bondarenko@student.uantwerpen.be
+gebruiker 4 Tom Hofkens tom.hofkens@uantwerpen.be
+gebruiker 5 Robbe VanReeth robbe.vanreeth@student.uantwerpen.be
+gebruiker 6 Bob Verbeke bob.verbeke@student.uantwerpen.be
+
+start
+
+2016-09-29 16:00 reserveer 5 4 10
+2016-10-07 11:30 reserveer 4 1 5
+2016-10-05 10:15 reserveer 1 1 10
+2016-10-10 11:00 reserveer 2 3 7
+2016-10-06 21:00 reserveer 5 4 3
+2016-10-10 17:25 ticket 1 3
+2016-10-10 17:35 ticket 3 7
+2016-10-10 17:40 ticket 1 12
+2016-10-10 21:45 ticket 4 5
+
+
+# dit maakt een bestand log.txt
+# G betekent gepland gevolgd door het aantal verkochte ticketten
+# F betekent dat de film gestart is gevolgd door het aantal mensen in de zaal
+# W betekent dat de film wacht om gestart te worden gevolgd door het aantal mensen waarop nog gewacht wordt
+# C betekent dat de film gestart zou moeten zijn, maar er geen kijkers opaf zijn gekomen
+2016-10-10 18:30 log
+2016-10-10 22:00 log

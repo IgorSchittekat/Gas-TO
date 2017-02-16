@@ -1,0 +1,22 @@
+- class SingleSlot
++__init__(in time: string, in slotId: int)
+// creates a SingleSlot object containing given information
+
+
++class Slots
++__init__()
+// creates an empty data structure of selected type: allSlots
+// runs when Movies object is created
+
++addSlot(in time: string, in slotID: int, out success: boolean)
+// add movie to allFilms
+// return boolean indicating success
+
++setupDefaultSlots()
+// Sets up default timeslots
+
++slotIDToTime(in slotID: int, out time: str)
+// return string with time corresponding to given id
+
++listAllSlots(out times: list(str))
+// returns list containing times in string format

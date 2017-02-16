@@ -1,0 +1,28 @@
+- class SingleMovie
++__init__(in title: string, in rating: float, in movieID: int)
+// creates a SingleMovie object containing given information
+
+
++class Movies
++__init__()
+// creates an empty data structure of selected type: allFilms
+// runs when Movies object is created
+
++addMovie(in movie: string, in rating: float, in movieID: int, out success: boolean)
+// add movie to allFilms
+// return boolean indicating success
+
++deleteMovie(in movieID: int, out success: boolean)
+// delete movie with given movieID from allFilms
+// returns boolean indicating success
+
++getMovies(out keys: list(int))
+// returns a list of all search keys present in allFilms
+
++changeRating(in movieID: int, in newRating: float, out succes: boolean)
+// changes rating of movie with given movieID to newRating
+// returns boolean indicating success
+
++getMovieTitle(in movieID: int, out title: string/None)
+// returns string containing title corresponding with given movieID
+// returns None if movieID not present

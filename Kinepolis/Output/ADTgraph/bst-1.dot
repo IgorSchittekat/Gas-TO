@@ -1,0 +1,9 @@
+digraph G {
+	"10" -> "5"
+	none1 [lable="",style=invis]
+	"5" -> none1 [style=invis]
+	"5" -> "9"
+	none3 [lable="",style=invis]
+	"10" -> none3 [style=invis]
+
+}

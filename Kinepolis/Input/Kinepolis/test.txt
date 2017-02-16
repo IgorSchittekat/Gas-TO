@@ -1,0 +1,64 @@
+init
+zaal 1 200
+zaal 2 100
+zaal 3 50
+zaal 4 100
+zaal 5 40
+
+film 33 "The Matrix" 0.95
+film 12 "Divergent" 0.50
+film 6 "I Am Legend" 1.00
+film 2 "Ocean’s Eleven" 0.78
+film 20 "Sherlock Holmes" 0.92
+film 49 "Ant-Man" 0.88
+film 25 "Looper" 0.33
+film 91 "The Equalizer" 0.67
+film 1002 "Mask" 0.77
+film 37 "Karate Kid" 0.82
+film 22 "The Incredibles" 0.8
+
+vertoning 66 1 1 2016-10-10 33 200
+vertoning 77 2 2 2016-10-10 20 100
+vertoning 88 3 4 2016-10-10 49 50
+vertoning 99 4 3 2016-10-10 25 100
+vertoning 11 1 2 2016-10-10 91 200
+vertoning 22 2 1 2016-10-11 1002 100
+vertoning 33 3 1 2016-10-11 2 50
+vertoning 44 4 4 2016-10-12 6 100
+
+
+gebruiker 1 John Doe john@doe.com
+gebruiker 2 Tom Hofkens tom.hofkens@uantwerpen.be
+gebruiker 3 Andrei Bondarenko andrei.bondarenko@uantwerpen.com
+gebruiker 4 Igor Schittekat igor.schittekat@uantwerpen.be
+gebruiker 5 Robbe vanReeth robbe.vanreeth@uantwerpen.com
+gebruiker 6 Bob Verbeke bob.verbeke@uantwerpen.be
+gebruiker 7 Timothy Henry timothy@henry.com
+gebruiker 8 Frank Carrano frank.carrano@book.com
+
+
+
+start
+
+
+2016-10-01 20:00 reserveer 1 66 2
+2016-10-02 22:30 reserveer 2 22 8
+2016-10-03 17:30 reserveer 3 33 2
+2016-10-04 11:21 reserveer 4 99 2
+2016-10-05 12:30 reserveer 5 99 8
+2016-10-06 00:30 reserveer 6 11 2
+2016-10-07 06:00 reserveer 7 44 2
+2016-10-08 15:30 reserveer 8 66 8
+2016-10-09 11:30 reserveer 1 77 2
+
+2016-10-10 13:45 ticket 99 10
+2016-10-10 13:50 ticket 77 2
+2016-10-10 13:55 ticket 33 1
+2016-10-10 14:10 ticket 11 2
+2016-10-10 14:11 ticket 66 6
+2016-10-10 14:20 ticket 44 2
+
+2016-10-10 18:00 log
+2016-10-11 18:00 log
+
+
